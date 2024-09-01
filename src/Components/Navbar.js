@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="App">
+    <div>
       <p>LOGO</p>
       <ul>
         <li>About</li>
