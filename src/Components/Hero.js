@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="flex flex-col w-10/12 md:w-9/12 lg:w-3/5 mx-auto mt-40">
+    <section className="flex flex-col w-10/12 md:w-9/12 lg:w-3/5 mx-auto mt-[12vh] h-screen">
       <h1 className="block text-primary mb-10 text-[clamp(13px,5vw,17px)]">
         Hi, my name is
       </h1>
