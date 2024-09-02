@@ -1,5 +1,5 @@
 import {
-  BsFillHouseFill,
+  BsFillPersonFill,
   BsCodeSlash,
   BsFileTextFill,
   BsFillTelephoneFill,
@@ -39,7 +39,7 @@ function Navbar() {
         </svg>
       </div>
       <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
-        <BsFillHouseFill className="fill-primary" />
+        <BsFillPersonFill className="fill-primary" />
         <a href="#About" className="hover:no-underline hover:text-primary p-2">
           About
         </a>
