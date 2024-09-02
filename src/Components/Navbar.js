@@ -7,7 +7,7 @@ import {
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap px-12 py-10">
+    <nav className="flex items-center justify-between flex-wrap px-16 py-10">
       <div class="flex items-center flex-shrink-0 text-white mr-6 w-full flex-grow lg:flex lg:items-center lg:w-auto">
         <svg
           height="50"
