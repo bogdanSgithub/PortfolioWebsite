@@ -7,7 +7,7 @@ import {
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap">
+    <nav className="flex items-center justify-between flex-wrap px-12 py-10">
       <div class="flex items-center flex-shrink-0 text-white mr-6 w-full flex-grow lg:flex lg:items-center lg:w-auto">
         <svg
           height="50"
@@ -38,21 +38,40 @@ function Navbar() {
           </g>
         </svg>
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
         <BsFillHouseFill className="fill-primary" />
-        <a href="#About">About</a>
+        <a href="#About" className="hover:no-underline hover:text-primary p-2">
+          About
+        </a>
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
         <BsCodeSlash className="fill-primary" />
-        <a href="#Projects">Projects</a>
+        <a
+          href="#Projects"
+          className="hover:no-underline hover:text-primary p-2"
+        >
+          Projects
+        </a>
       </div>
-      <div className="flex flex-row">
+
+      <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
         <BsFileTextFill className="fill-primary" />
-        <a href="#Experience">Experience</a>
+        <a
+          href="#Experience"
+          className="hover:no-underline hover:text-primary p-2"
+        >
+          Experience
+        </a>
       </div>
-      <div className="flex flex-row">
+
+      <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
         <BsFillTelephoneFill className="fill-primary" />
-        <a href="#Contact">Contact</a>
+        <a
+          href="#Contact"
+          className="hover:no-underline hover:text-primary p-2"
+        >
+          Contact
+        </a>
       </div>
     </nav>
   );
