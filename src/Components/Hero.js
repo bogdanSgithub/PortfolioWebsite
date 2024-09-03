@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Hero() {
   return (
     <section className="flex flex-col mt-[15vh] h-[80vh]">
@@ -13,14 +15,10 @@ function Hero() {
         creating innovative solutions and exploring new technologies. This
         portfolio showcases my projects and technical skills.
       </p>
-      <a
-        href="https://drive.google.com/file/d/1n9mqRR8xWyRbbxZcQN_Tr6lR0Xu9ANnZ/view?usp=sharing"
-        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Check out my Resume!
-      </a>
+      <Button
+        link="https://drive.google.com/file/d/1n9mqRR8xWyRbbxZcQN_Tr6lR0Xu9ANnZ/view?usp=sharing"
+        text="Check out my Resume!"
+      />
     </section>
   );
 }

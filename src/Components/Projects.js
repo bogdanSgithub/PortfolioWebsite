@@ -1,3 +1,4 @@
+import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
 
 const projects = [
@@ -25,8 +26,12 @@ function Projects() {
   return (
     <section className="pt-8 mb-[25vh]">
       <div className="flex flex-row place-items-center m-3 text-[clamp(20px,6vw,35px)]">
-        <ProjectItem title="MarketPath" des />
+        <BsCodeSlash className="fill-primary" />
+        <h1 className="p-2 ">Projects</h1>
       </div>
+      {projects.map((project, index) => (
+        <ProjectItem key={index} project={project} />
+      ))}
     </section>
   );
 }
