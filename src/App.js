@@ -8,18 +8,28 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App bg-background text-firstText font-sans ">
+    <div className="App bg-background text-firstText font-sans">
       <Navbar />
       <main className="w-10/12 md:w-9/12 lg:w-3/5 mx-auto">
-        <Hero />
+        <section id="Hero">
+          <Hero />
+        </section>
         <hr className="my-4 border-t border-primary" />
-        <About />
+        <section id="About">
+          <About />
+        </section>
         <hr className="my-4 border-t border-primary" />
-        <Projects />
+        <section id="Projects">
+          <Projects />
+        </section>
         <hr className="my-4 border-t border-primary" />
-        <Experience />
+        <section id="Experience">
+          <Experience />
+        </section>
         <hr className="my-4 border-t border-primary" />
-        <Contact />
+        <section id="Contact">
+          <Contact />
+        </section>
       </main>
     </div>
   );

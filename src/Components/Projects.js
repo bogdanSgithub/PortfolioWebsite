@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Portfolio",
     description:
-      "Created with React and TailwindCSS, this personal portfolio showcases my top projects, experiences, technical skills, and a brief introduction. It provides a polished and contemporary view of my work and abilities.",
+      "Created with React and TailwindCSS, this personal portfolio showcases my top projects, experiences, technical skills, and a brief introduction. It provides a polished and contemporary view of my work.",
     img: portfolioPic, // Replace with the actual path or URL to your image
     tools: ["React", "JavaScript", "TailwindCSS"],
     githubLink: "https://github.com/bogdanSgithub/bogdanSgit",
