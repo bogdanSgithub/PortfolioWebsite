@@ -2,7 +2,7 @@ import {
   BsFillPersonFill,
   BsCodeSlash,
   BsFileTextFill,
-  BsFillTelephoneFill,
+  BsFillEnvelopeFill,
 } from "react-icons/bs";
 
 function Navbar() {
@@ -65,7 +65,7 @@ function Navbar() {
       </div>
 
       <div className="flex flex-row place-items-center h-2 m-3 text-2xl">
-        <BsFillTelephoneFill className="fill-primary" />
+        <BsFillEnvelopeFill className="fill-primary" />
         <a
           href="#Contact"
           className="hover:no-underline hover:text-primary p-2"

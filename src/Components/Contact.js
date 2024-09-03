@@ -14,7 +14,7 @@ function Contact() {
         please feel free to reach out.
       </p>
       <a
-        href="mailto:your-email@example.com?subject=Internship%20Opportunity"
+        href="mailto:bogdan.feher@gmail.com?subject=Internship%20Opportunity"
         className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background"
         target="_blank"
         rel="noopener noreferrer"
