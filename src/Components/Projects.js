@@ -24,7 +24,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section className="pt-8 mb-[25vh]">
+    <section className="pt-8 mb-5">
       <div className="flex flex-row place-items-center mb-3 text-[clamp(20px,6vw,35px)]">
         <BsCodeSlash className="fill-primary" />
         <h1 className="p-2 ">Projects</h1>

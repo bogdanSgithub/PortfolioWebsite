@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import Experience from "./Components/Experience";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <About />
         <hr className="my-4 border-t border-primary" />
         <Projects />
+        <hr className="my-4 border-t border-primary" />
+        <Experience />
       </main>
     </div>
   );
