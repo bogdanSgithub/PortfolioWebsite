@@ -9,7 +9,7 @@ module.exports = {
         background: "#1b1a17",
         primary: "#daa520",
         firstText: "#d8dad5",
-        secondText: "#b4b5b0",
+        secondText: "#949494",
       },
     },
     fontFamily: {
