@@ -12,17 +12,23 @@ function ProjectItem({ project }) {
           className="w-full h-auto rounded-lg"
         />
       </aside>
-      <article className="max-md:bg-secondBackground md:w-1/2 md:text-right max-md:p-12 mt-5">
+      <article
+        className="max-md:bg-secondBackground md:w-1/2 md:text-right max-md:p-12 mt-6 rounded bg-gradient-to-br max-md:from-secondBackground 
+                to-background"
+      >
         <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
-        <p className="mb-4 text-secondText">{project.description}</p>
-        <ul className="mb-4 text-secondText">
+        <p className="mb-3 text-secondText">{project.description}</p>
+        <ul className="mb-3 text-secondText">
           {project.tools.map((tool, index) => (
-            <li key={index} className="inline-block pl-3 py-1 text-sm mb-2">
+            <li
+              key={index}
+              className="inline-block max-sm:pr-3 min-md:pl-3 text-sm"
+            >
               {tool}
             </li>
           ))}
         </ul>
-        <div className="flex flew-row items-center md:justify-end mb-10">
+        <div className="flex flew-row items-center md:justify-end">
           <a
             href={project.githubLink}
             target="_blank"
