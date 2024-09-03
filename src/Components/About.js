@@ -3,11 +3,11 @@ import { BsFillPersonFill } from "react-icons/bs";
 function About() {
   return (
     <section className="pt-8 mb-[25vh]">
-      <div className="flex flex-row place-items-center m-3 text-[clamp(20px,6vw,35px)]">
+      <div className="flex flex-row place-items-center text-[clamp(20px,6vw,35px)]">
         <BsFillPersonFill className="fill-primary" />
         <h1 className="p-2 ">About</h1>
       </div>
-      <div className="flex flex-col md:flex-row items-center md:space-x-8 p-4">
+      <div className="flex flex-col md:flex-row items-center md:space-x-8 pt-6">
         <article className="md:w-1/2">
           <p className="text-secondText text-[clamp(13px,5vw,17px)] max-w-[580px] mb-8">
             Hello! I’m Bogdan Feher, a passionate developer with a deep love for

@@ -4,28 +4,25 @@ import { FiExternalLink } from "react-icons/fi";
 
 function ProjectItem({ project }) {
   return (
-    <section className="flex flex-col md:flex-row items-center md:space-x-8 p-4">
-      <aside className="flex-shrink-0 md:w-1/2">
+    <section className="flex flex-col md:flex-row items-center">
+      <aside className="max-md:hidden flex-shrink-0 md:w-1/2">
         <img
           src={project.img}
           alt={`${project.title}`}
           className="w-full h-auto rounded-lg"
         />
       </aside>
-      <article className="md:w-1/2">
-        <h2 className="text-xl font-bold">{project.title}</h2>
-        <p className="mb-4">{project.description}</p>
-        <ul className="mb-4">
+      <article className="max-md:bg-secondBackground md:w-1/2 md:text-right max-md:p-12 mt-5">
+        <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
+        <p className="mb-4 text-secondText">{project.description}</p>
+        <ul className="mb-4 text-secondText">
           {project.tools.map((tool, index) => (
-            <li
-              key={index}
-              className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-            >
+            <li key={index} className="inline-block pl-3 py-1 text-sm mb-2">
               {tool}
             </li>
           ))}
         </ul>
-        <div className="flex flew-row items-center mb-10">
+        <div className="flex flew-row items-center md:justify-end mb-10">
           <a
             href={project.githubLink}
             target="_blank"
