@@ -6,7 +6,7 @@ function ProjectItem({ project }) {
   return (
     <section className="flex flex-col md:flex-row items-center">
       <aside className="max-md:hidden flex-shrink-0 md:w-1/2 mt-16 mb-8 mr-[4vw]">
-        <div className="bg-background opacity-85 transition-opacity duration-300 ease-in-out hover:opacity-100 w-full rounded-2xl ">
+        <div className="bg-background opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100 w-full rounded-2xl border border-secondText">
           <img
             src={project.img}
             alt={`${project.title}`}
@@ -15,21 +15,21 @@ function ProjectItem({ project }) {
         </div>
       </aside>
       <article
-        className="max-md:bg-secondBackground md:w-1/2 md:text-right max-md:p-12 mt-6 rounded bg-gradient-to-br max-md:from-secondBackground 
+        className="max-md:bg-secondBackground md:w-1/2 md:text-right max-md:p-12 mt-6 rounded-lg bg-gradient-to-br max-md:from-secondBackground 
                 to-background"
       >
         <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
         <p
-          className="mb-3 text-secondText min-md: bg-secondBackground rounded bg-gradient-to-br min-md:from-secondBackground 
-                to-background p-4"
+          className=" text-secondText min-md: rounded-lg bg-gradient-to-br min-md:from-secondBackground 
+                to-background pb-4 md:pl-[3vw]"
         >
           {project.description}
         </p>
-        <ul className="mb-3 text-secondText">
+        <ul className="mb-4 text-secondText">
           {project.tools.map((tool, index) => (
             <li
               key={index}
-              className="inline-block max-sm:pr-3 min-md:pl-3 text-sm"
+              className="inline-block max-sm:pr-3 md:pl-3 text-[11px]"
             >
               {tool}
             </li>

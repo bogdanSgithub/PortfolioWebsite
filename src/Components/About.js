@@ -1,5 +1,5 @@
 import { BsFillPersonFill } from "react-icons/bs";
-import mePic from "../pictures/me.png";
+import mePic from "../Pictures/me.png";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
             work with others on impactful projects.
           </p>
         </article>
-        <aside className="flex-shrink-0 md:w-1/2 pl-[2vw] max-md:p-[8vw]">
+        <aside className="flex-shrink-0 md:w-1/2 ml-[2vw] max-md:m-[8vw] border border-secondText rounded-lg">
           <img
             src={mePic} // Replace with your actual image URL
             alt="Me"
