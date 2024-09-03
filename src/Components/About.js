@@ -2,8 +2,8 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 function About() {
   return (
-    <section className="py-16">
-      <div className="flex flex-row place-items-center m-3 text-[clamp(20px,6vw,50px)] mb-8">
+    <section className="pt-8 mb-[25vh]">
+      <div className="flex flex-row place-items-center m-3 text-[clamp(20px,6vw,35px)]">
         <BsFillPersonFill className="fill-primary" />
         <h1 className="p-2 ">About</h1>
       </div>
@@ -15,8 +15,7 @@ function About() {
             actively engaged in software development and learning new
             technologies. At the moment, I’m particularly excited about
             <span className="text-primary"> AI/ML</span> and
-            <span className="text-primary"> Web Development</span> which I
-            believe offer endless opportunities for innovation and growth.
+            <span className="text-primary"> Web Development</span>.
           </p>
           <p className="text-secondText text-[clamp(13px,5vw,17px)] max-w-[580px] mb-8">
             I’ve enjoyed participating in hackathons and was one of the

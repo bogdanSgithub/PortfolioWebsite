@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Hero />
         <hr className="my-4 border-t border-primary" />
         <About />
+        <hr className="my-4 border-t border-primary" />
+        <Projects />
       </main>
     </div>
   );
