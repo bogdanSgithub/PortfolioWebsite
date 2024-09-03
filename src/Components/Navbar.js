@@ -12,17 +12,9 @@ import { Link } from "react-scroll";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleResize = () => {
-    setIsOpen(window.innerWidth >= 768);
-  };
-
+  // set isOpen depending on the screen size
   useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    setIsOpen(window.innerWidth >= 768);
   }, []);
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -67,10 +59,8 @@ function Navbar() {
 
       <div
         className={`fixed inset-0 z-40 bg-secondBackground flex flex-col items-center justify-center space-y-6 md:relative md:flex md:flex-row md:space-x-4 md:space-y-0 md:inset-auto md:bg-transparent transition-transform duration-300 ease-in-out ${
-          isOpen && window.innerWidth < 768
-            ? "translate-x-0"
-            : "translate-x-full"
-        }`}
+          isOpen ? "translate-x-0" : "translate-x-full"
+        } md:translate-x-0`}
       >
         <div className="flex items-center text-2xl">
           <BsFillPersonFill className="fill-primary" />
