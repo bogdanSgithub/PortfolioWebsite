@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Projects />
         <hr className="my-4 border-t border-primary" />
         <Experience />
+        <hr className="my-4 border-t border-primary" />
+        <Contact />
       </main>
     </div>
   );
