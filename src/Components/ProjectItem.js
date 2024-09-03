@@ -5,12 +5,12 @@ import { FiExternalLink } from "react-icons/fi";
 function ProjectItem({ project }) {
   return (
     <section className="flex flex-col md:flex-row items-center">
-      <aside className="max-md:hidden flex-shrink-0 md:w-1/2 mt-8 mb-8">
-        <div className="bg-primary opacity-70 transition-opacity duration-300 ease-in-out hover:opacity-100 w-[90%] rounded-[12px] ">
+      <aside className="max-md:hidden flex-shrink-0 md:w-1/2 mt-16 mb-8 mr-[4vw]">
+        <div className="bg-background opacity-85 transition-opacity duration-300 ease-in-out hover:opacity-100 w-full rounded-2xl ">
           <img
             src={project.img}
             alt={`${project.title}`}
-            className="rounded-[12px] "
+            className="rounded-2xl"
           />
         </div>
       </aside>
@@ -40,9 +40,9 @@ function ProjectItem({ project }) {
             href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:no-underline p-2 hover:text-primary flex items-center"
+            className="hover:no-underline hover:text-primary flex items-center md:pr-5"
           >
-            <div className="text-3xl">
+            <div className="text-4xl max-md:text-3xl">
               <BsGithub />
             </div>
           </a>
@@ -50,9 +50,9 @@ function ProjectItem({ project }) {
             href={project.websiteLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:no-underline p-2 hover:text-primary h-full flex items-center"
+            className="hover:no-underline max-md:pl-4 hover:text-primary h-full flex items-center"
           >
-            <div className="text-3xl">
+            <div className="text-4xl max-md:text-3xl">
               <FiExternalLink />
             </div>
           </a>

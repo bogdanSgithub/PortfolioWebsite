@@ -1,13 +1,14 @@
 import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
 import jacHacksPic from "../pictures/jachacks.png";
+import marketPathPic from "../pictures/marketPath.png";
 
 const projects = [
   {
     title: "MarketPath",
     description:
-      "Project developed for AI Launch Lab's R&D program. MarketPath is an AI-powered machine learning model for investment analysis.",
-    img: "",
+      "Project developed for AI Launch Lab's R&D program. MarketPath is an AI-powered machine learning model for investment analysis. It predicts which S&P 500 stocks will outperform the market, helping investors make data-driven decisions with greater confidence.",
+    img: marketPathPic,
     tools: ["Streamlit", "Scikit Learn", "Python"],
     githubLink: "https://github.com/bogdanSgithub/MarketPath",
     websiteLink: "https://marketpath.streamlit.app/",
