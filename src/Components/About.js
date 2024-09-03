@@ -1,8 +1,9 @@
 import { BsFillPersonFill } from "react-icons/bs";
+import mePic from "../pictures/me.png";
 
 function About() {
   return (
-    <section className="pt-8 mb-[25vh]">
+    <section className="pt-8 mb-[15vh]">
       <div className="flex flex-row place-items-center text-[clamp(20px,6vw,35px)]">
         <BsFillPersonFill className="fill-primary" />
         <h1 className="p-2 ">About</h1>
@@ -25,10 +26,10 @@ function About() {
             work with others on impactful projects.
           </p>
         </article>
-        <aside className="flex-shrink-0 md:w-1/2">
+        <aside className="flex-shrink-0 md:w-1/2 pl-[2vw] max-md:p-[8vw]">
           <img
-            src="https://via.placeholder.com/300" // Replace with your actual image URL
-            alt="Placeholder"
+            src={mePic} // Replace with your actual image URL
+            alt="Me"
             className="w-full h-auto rounded-lg"
           />
         </aside>
