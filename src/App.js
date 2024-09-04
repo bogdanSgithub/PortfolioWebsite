@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Contact />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

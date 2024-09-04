@@ -68,7 +68,7 @@ function Navbar() {
             to="About"
             smooth={true}
             duration={500}
-            className="hover:no-underline hover:text-primary p-2"
+            className="hover:no-underline hover:text-primary p-2 transition-colors hover:cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
             About
@@ -80,7 +80,7 @@ function Navbar() {
             to="Projects"
             smooth={true}
             duration={750}
-            className="hover:no-underline hover:text-primary p-2"
+            className="hover:no-underline hover:text-primary p-2 transition-colors hover:cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
             Projects
@@ -92,7 +92,7 @@ function Navbar() {
             to="Experience"
             smooth={true}
             duration={1000}
-            className="hover:no-underline hover:text-primary p-2"
+            className="hover:no-underline hover:text-primary p-2 transition-colors hover:cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
             Experience
@@ -104,7 +104,7 @@ function Navbar() {
             to="Contact"
             smooth={true}
             duration={1250}
-            className="hover:no-underline hover:text-primary p-2"
+            className="hover:no-underline hover:text-primary p-2 transition-colors hover:cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
             Contact

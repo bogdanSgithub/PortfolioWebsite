@@ -40,7 +40,7 @@ function ProjectItem({ project }) {
             href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:no-underline hover:text-primary flex items-center md:pr-5"
+            className="hover:no-underline hover:text-primary flex items-center md:pr-5 transition-colors"
           >
             <div className="text-4xl max-md:text-3xl">
               <BsGithub />
@@ -50,7 +50,7 @@ function ProjectItem({ project }) {
             href={project.websiteLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:no-underline max-md:pl-4 hover:text-primary h-full flex items-center"
+            className="hover:no-underline max-md:pl-4 hover:text-primary h-full flex items-center transition-colors"
           >
             <div className="text-4xl max-md:text-3xl">
               <FiExternalLink />

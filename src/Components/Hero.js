@@ -15,7 +15,7 @@ function Hero() {
       </p>
       <a
         href="https://drive.google.com/file/d/1n9mqRR8xWyRbbxZcQN_Tr6lR0Xu9ANnZ/view?usp=sharing"
-        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background"
+        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background transition-colors"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -15,7 +15,7 @@ function Contact() {
       </p>
       <a
         href="mailto:bogdan.feher@gmail.com?subject=Internship%20Opportunity"
-        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background"
+        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background transition-colors"
         target="_blank"
         rel="noopener noreferrer"
       >
