@@ -23,6 +23,13 @@ const experiences = [
   },
 ];
 
+const education = {
+  title: "Computer Science",
+  company: "John Abbott College",
+  tasks: ["4.0 GPA", "3x Dean's List", "$1500 semesterly awarded scholarship"],
+  timeframe: "August 2023 - May 2026",
+};
+
 function ExperienceItem({ experience }) {
   return (
     <section
@@ -53,16 +60,17 @@ function Career() {
         <BsFileTextFill className="fill-primary" />
         <h1 className="p-2 ">Career</h1>
       </div>
-      <h3 className="text-4xl pb-[4vh]">Experience</h3>
-      {experiences.map((experience, index) => (
-        <ExperienceItem key={index} experience={experience} />
-      ))}
-      <div className="border-l-2 border-secondText pl-4 mt-[4vh]">
-        <h3 className="text-4xl pb-4">Education</h3>
-        <h4 className="text-secondText">
-          Computer Science
-          <span className="text-primary"> @John Abbott College</span>
-        </h4>
+      <div className="flex flex-col md:flex-row items-start md:space-x-8 pt-6">
+        <div className="md:max-w-[60%]">
+          <h3 className="text-4xl pb-[4vh]">Experience</h3>
+          {experiences.map((experience, index) => (
+            <ExperienceItem key={index} experience={experience} />
+          ))}
+        </div>
+        <div className="max-md:mt-[5vh]">
+          <h3 className="text-4xl pb-[4vh]">Education</h3>
+          <ExperienceItem experience={education} />
+        </div>
       </div>
     </section>
   );
