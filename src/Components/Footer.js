@@ -8,7 +8,7 @@ function Footer() {
         <span className="text-red-500">❤️</span>
         <span>by Bogdan Feher</span>
       </div>
-      <div className="flex space-x-4 text-3xl">
+      <div className="flex space-x-4 text-4xl">
         <a
           href="https://github.com/bogdanSgithub"
           target="_blank"
@@ -18,7 +18,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/bogdan-feher"
+          href="https://www.linkedin.com/in/bogdan-feher-b7567b203/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary transition-colors"

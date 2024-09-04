@@ -89,13 +89,13 @@ function Navbar() {
         <div className="flex items-center text-2xl">
           <BsFileTextFill className="fill-primary" />
           <Link
-            to="Experience"
+            to="Career"
             smooth={true}
             duration={1000}
             className="hover:no-underline hover:text-primary p-2 transition-colors hover:cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
-            Experience
+            Career
           </Link>
         </div>
         <div className="flex items-center text-2xl">

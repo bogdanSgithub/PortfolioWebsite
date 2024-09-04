@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
-import Experience from "./Components/Experience";
+import Career from "./Components/Career";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
@@ -24,8 +24,8 @@ function App() {
           <Projects />
         </section>
         <hr className="my-4 border-t border-primary" />
-        <section id="Experience">
-          <Experience />
+        <section id="Career">
+          <Career />
         </section>
         <hr className="my-4 border-t border-primary" />
         <section id="Contact">
