@@ -21,15 +21,15 @@ function ProjectItem({ project }) {
         <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
         <p
           className=" text-secondText min-md: rounded-lg bg-gradient-to-br min-md:from-secondBackground 
-                to-background pb-4 md:pl-[3vw]"
+                to-background md:pl-[3vw]"
         >
           {project.description}
         </p>
-        <ul className="mb-4 text-secondText">
+        <ul className="mb-4 text-secondText text-[clamp(14px,5vw,18px)]">
           {project.tools.map((tool, index) => (
             <li
               key={index}
-              className="inline-block max-sm:pr-3 md:pl-3 text-[11px]"
+              className="inline-block max-sm:pr-3 md:pl-3 text-[clamp(12px,1vw,14px)]"
             >
               {tool}
             </li>
@@ -42,7 +42,7 @@ function ProjectItem({ project }) {
             rel="noopener noreferrer"
             className="hover:no-underline hover:text-primary flex items-center md:pr-5 transition-colors"
           >
-            <div className="text-4xl max-md:text-3xl">
+            <div className="text-5xl max-md:text-4xl">
               <BsGithub />
             </div>
           </a>
@@ -52,7 +52,7 @@ function ProjectItem({ project }) {
             rel="noopener noreferrer"
             className="hover:no-underline max-md:pl-4 hover:text-primary h-full flex items-center transition-colors"
           >
-            <div className="text-4xl max-md:text-3xl">
+            <div className="text-5xl max-md:text-4xl">
               <FiExternalLink />
             </div>
           </a>

@@ -10,7 +10,7 @@ function About() {
       </div>
       <div className="flex flex-col md:flex-row items-center md:space-x-8 pt-6">
         <article className="md:w-1/2">
-          <p className="text-secondText text-[clamp(13px,5vw,17px)] max-w-[580px] mb-8">
+          <p className="text-secondText text-[clamp(14px,5vw,18px)] max-w-[580px] mb-8">
             Hello! I’m Bogdan Feher, a passionate developer with a deep love for
             coding and technology. In my second year at John Abbott College, I’m
             actively engaged in software development and learning new
@@ -18,7 +18,7 @@ function About() {
             <span className="text-primary"> AI/ML</span> and
             <span className="text-primary"> Web Development</span>.
           </p>
-          <p className="text-secondText text-[clamp(13px,5vw,17px)] max-w-[580px] mb-8">
+          <p className="text-secondText text-[clamp(14px,5vw,18px)] max-w-[580px] mb-8">
             I’ve enjoyed participating in hackathons and was one of the
             organizers for the first hackathon at my college,
             <span className="text-primary"> JACHacks</span>. These experiences
@@ -26,7 +26,7 @@ function About() {
             work with others on impactful projects.
           </p>
         </article>
-        <aside className="flex-shrink-0 md:w-1/2 ml-[2vw] max-md:m-[8vw] border border-secondText rounded-lg">
+        <aside className="flex-shrink-0 md:w-1/2 ml-[2vw] max-md:m-[4vw] border border-secondText rounded-lg">
           <img
             src={mePic} // Replace with your actual image URL
             alt="Me"

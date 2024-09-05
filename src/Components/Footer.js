@@ -8,7 +8,7 @@ function Footer() {
         <span className="text-red-500">❤️</span>
         <span>by Bogdan Feher</span>
       </div>
-      <div className="flex space-x-4 text-4xl">
+      <div className="flex space-x-4 text-5xl max-md:text-4xl">
         <a
           href="https://github.com/bogdanSgithub"
           target="_blank"

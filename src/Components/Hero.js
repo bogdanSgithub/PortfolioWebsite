@@ -5,7 +5,7 @@ function Hero() {
         Hi, my name is
       </h1>
       <h2 className="text-[clamp(40px,8vw,80px)] mb-6">Bogdan Feher.</h2>
-      <h3 className="text-[clamp(30px,7vw,52px)] text-secondText mb-12">
+      <h3 className="text-[clamp(30px,7vw,52px)] text-secondText mb-10">
         I build software that works. <small>(sometimes)</small>
       </h3>
       <p className="text-secondText max-w-[540px] text-[clamp(13px,5vw,17px)] mb-14">
@@ -15,11 +15,11 @@ function Hero() {
       </p>
       <a
         href="https://drive.google.com/file/d/1n9mqRR8xWyRbbxZcQN_Tr6lR0Xu9ANnZ/view?usp=sharing"
-        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background transition-colors"
+        className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background transition-colors text-3xl mb-10"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Resume
+        Check out my Resume!
       </a>
     </section>
   );
