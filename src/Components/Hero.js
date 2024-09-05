@@ -19,7 +19,7 @@ function Hero() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Check out my Resume!
+        Resume
       </a>
     </section>
   );
