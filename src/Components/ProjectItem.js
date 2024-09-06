@@ -21,11 +21,11 @@ function ProjectItem({ project }) {
         <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
         <p
           className=" text-secondText min-md: rounded-lg bg-gradient-to-br min-md:from-secondBackground 
-                to-background md:pl-[3vw]"
+                to-background md:pl-[3vw] text-[clamp(14px,5vw,18px)]"
         >
           {project.description}
         </p>
-        <ul className="mb-4 text-secondText text-[clamp(14px,5vw,18px)]">
+        <ul className="mb-4 text-secondText">
           {project.tools.map((tool, index) => (
             <li
               key={index}

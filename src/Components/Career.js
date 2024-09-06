@@ -3,7 +3,7 @@ import { BsFileTextFill } from "react-icons/bs";
 const experiences = [
   {
     title: "IT Technician/Wharehouse Clerk",
-    company: "Revenue Quebéc",
+    company: "Revenu Quebéc",
     tasks: [
       "Conducted daily warehouse operations, involving inventory management, organization, and ensuring efficient workflows for our IT team.",
       "          Installed and configured new devices and system components.",
