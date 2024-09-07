@@ -2,7 +2,7 @@ import { BsFileTextFill } from "react-icons/bs";
 
 const experiences = [
   {
-    title: "IT Technician/Wharehouse Clerk",
+    title: "IT Technician/Warehouse Clerk",
     company: "Revenu Quebéc",
     tasks: [
       "Maintained accurate inventory records using in-house applications for IT equipment.",
@@ -41,10 +41,12 @@ function ExperienceItem({ experience }) {
         <span className="text-primary"> @{experience.company}</span>
       </h4>
       <p className="pb-3 text-secondText">{experience.timeframe}</p>
-      <ul className="text-secondText mt-2 pl-4">
+      <ul className="text-secondText mt-2 pl-4 text-[clamp(13px,1vw,15px)]">
         {experience.tasks.map((task, index) => (
           <li key={index} className="flex items-start">
-            <span className="text-primary pr-2">▹</span>
+            <span className="text-primary pr-2 text-[clamp(12px,1vw,13px)]">
+              ▹
+            </span>
             {task}
           </li>
         ))}
