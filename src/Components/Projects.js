@@ -29,8 +29,8 @@ const projects = [
       "Created with React and TailwindCSS, this personal portfolio showcases my top projects, experiences, technical skills, and a brief introduction. It provides a polished and contemporary view of my work.",
     img: portfolioPic, // Replace with the actual path or URL to your image
     tools: ["React", "JavaScript", "TailwindCSS"],
-    githubLink: "https://github.com/bogdanSgithub/bogdanSgit",
-    websiteLink: "https://jachacks.pages.dev/",
+    githubLink: "https://github.com/bogdanSgithub/PortfolioWebsite",
+    websiteLink: "https://bogdansgithub.github.io/PortfolioWebsite/",
   },
 ];
 

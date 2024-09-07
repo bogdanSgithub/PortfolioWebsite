@@ -5,9 +5,9 @@ const experiences = [
     title: "IT Technician/Wharehouse Clerk",
     company: "Revenu Quebéc",
     tasks: [
-      "Conducted daily warehouse operations, involving inventory management, organization, and ensuring efficient workflows for our IT team.",
-      "          Installed and configured new devices and system components.",
       "Maintained accurate inventory records using in-house applications for IT equipment.",
+      "Installed and configured new devices and system components.",
+      "Conducted daily warehouse operations, involving inventory management, organization, and ensuring efficient workflows for our IT team.",
     ],
     timeframe: "July 2024 - Present",
   },

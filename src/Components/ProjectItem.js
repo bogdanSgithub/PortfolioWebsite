@@ -21,7 +21,7 @@ function ProjectItem({ project }) {
         <h2 className="text-3xl text-primary mb-4">{project.title}</h2>
         <p
           className=" text-secondText min-md: rounded-lg bg-gradient-to-br min-md:from-secondBackground 
-                to-background md:pl-[3vw] text-[clamp(14px,5vw,18px)]"
+                to-background md:pl-[3vw] text-[clamp(14px,5vw,18px)] mb-4"
         >
           {project.description}
         </p>

@@ -62,7 +62,7 @@ function Navbar() {
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:translate-x-0`}
       >
-        <div className="flex items-center max-md:text-4xl text-2xl">
+        <div className="flex items-center text-4xl">
           <BsFillPersonFill className="fill-primary" />
           <Link
             to="About"
@@ -74,7 +74,7 @@ function Navbar() {
             About
           </Link>
         </div>
-        <div className="flex items-center max-md:text-4xl text-2xl">
+        <div className="flex items-center text-4xl">
           <BsCodeSlash className="fill-primary" />
           <Link
             to="Projects"
@@ -86,7 +86,7 @@ function Navbar() {
             Projects
           </Link>
         </div>
-        <div className="flex items-center max-md:text-4xl text-2xl">
+        <div className="flex items-center text-4xl">
           <BsFileTextFill className="fill-primary" />
           <Link
             to="Career"
@@ -98,7 +98,7 @@ function Navbar() {
             Career
           </Link>
         </div>
-        <div className="flex items-center max-md:text-4xl text-2xl">
+        <div className="flex items-center text-4xl">
           <BsFillEnvelopeFill className="fill-primary" />
           <Link
             to="Contact"
