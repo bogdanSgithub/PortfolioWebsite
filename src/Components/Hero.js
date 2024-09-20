@@ -14,7 +14,7 @@ function Hero() {
         portfolio showcases my projects and technical skills.
       </p>
       <a
-        href="https://drive.google.com/file/d/1ESCKvXhKlauxcPqCB8Zu5V3R18_kcvYj/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Y-vP8E1A7Gj66cHDYxVxT5NAn8gJQlJC/view?usp=sharing"
         className="bg-transparent hover:bg-primary text-primary hover:no-underline py-5 px-10 border border-primary hover:border-transparent rounded max-w-max hover:text-background transition-colors text-3xl mb-10"
         target="_blank"
         rel="noopener noreferrer"

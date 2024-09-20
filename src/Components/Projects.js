@@ -3,8 +3,18 @@ import ProjectItem from "./ProjectItem";
 import jacHacksPic from "../Pictures/jachacks.png";
 import marketPathPic from "../Pictures/marketPath.png";
 import portfolioPic from "../Pictures/portfolio.png";
+import tabinatorPic from "../Pictures/tabinator.png";
 
 const projects = [
+  {
+    title: "Tabinator",
+    description: 
+      "Developed for Hack The North 2024, Tabinator is a cross-platform desktop app that saves and restores your desktop layout, including window size, position, and program info.",
+    img: tabinatorPic,
+    tools: ["Rust", "Tauri", "Powershell", "Swift", "Python", "React"],
+    githubLink: "https://github.com/matthew-hre/HackTheNorth2024",
+    websiteLink: "https://devpost.com/software/tabulator",
+  },
   {
     title: "MarketPath",
     description:
