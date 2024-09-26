@@ -8,8 +8,8 @@ import tabinatorPic from "../Pictures/tabinator.png";
 const projects = [
   {
     title: "Tabinator",
-    description: 
-      "Developed for Hack The North 2024, Tabinator is a cross-platform desktop app that saves and restores your desktop layout, including window size, position, and program info.",
+    description:
+      "Developed for Hack The North 2024, University of Waterloo, Tabinator is a cross-platform desktop app that saves and restores your desktop layout, including window size, position, and program info.",
     img: tabinatorPic,
     tools: ["Rust", "Tauri", "Powershell", "Swift", "Python", "React"],
     githubLink: "https://github.com/matthew-hre/HackTheNorth2024",
@@ -34,13 +34,13 @@ const projects = [
     websiteLink: "https://jachacks.pages.dev/",
   },
   {
-    title: "Portfolio",
+    title: "StudyBrew",
     description:
-      "Created with React and TailwindCSS, this personal portfolio showcases my top projects, experiences, technical skills, and a brief introduction. It provides a polished and contemporary view of my work.",
+      "Developed for Girls Who Hack, winning 2nd place, StudyBrew is a fullstack web app that provides a Pomodoro timer and live chat for networking in cafes.",
     img: portfolioPic, // Replace with the actual path or URL to your image
-    tools: ["React", "JavaScript", "TailwindCSS"],
-    githubLink: "https://github.com/bogdanSgithub/PortfolioWebsite",
-    websiteLink: "https://bogdansgithub.github.io/PortfolioWebsite/",
+    tools: ["React", "JavaScript", "Firebase"],
+    githubLink: "https://github.com/bogdanSgithub",
+    websiteLink: "https://devpost.com/software/study-cafe-chat",
   },
 ];
 

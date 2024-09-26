@@ -2,11 +2,21 @@ import { BsFileTextFill } from "react-icons/bs";
 
 const experiences = [
   {
-    title: "IT Technician/Warehouse Clerk",
+    title: "Fullstack Developer Intern",
+    company: "Tail’ed",
+    tasks: [
+      "Implemented new features and optimized web application performance to enhance UI/UX.",
+      "Maintained accurate inventory records using in-house applications for IT equipment.",
+      "Developed frontend components and integrated them with backend functionality using Next.js for efficient data handling.",
+    ],
+    timeframe: "September 2024 - Present",
+  },
+  {
+    title: "IT Helper",
     company: "Revenu Quebéc",
     tasks: [
-      "Maintained accurate inventory records using in-house applications for IT equipment.",
       "Installed and configured new devices and system components.",
+      "Maintained accurate inventory records using in-house applications for IT equipment.",
       "Conducted daily warehouse operations, involving inventory management, organization, and ensuring efficient workflows for our IT team.",
     ],
     timeframe: "July 2024 - Present",
@@ -15,9 +25,9 @@ const experiences = [
     title: "Director Of Technology, JACHacks",
     company: "John Abbott College",
     tasks: [
-      "Collaborated with a dedicated team of John Abbott College students to successfully organize and launch our college’s first Hackathon.",
-      "Designed and developed the event website, ensuring user-friendly navigation and functionality. jachacks.pages.dev/",
-      "Managed AV equipment, including projectors, speakers, and microphones, to ensure seamless presentations and announcements.",
+      "Organized and launched my college’s first Hackathon, partnering with a dedicated team of John Abbott College students to host over 100 hackers.",
+      "Developed and designed the event website, ensuring user-friendly navigation and functionality. jachacks.pages.dev/",
+      "Managed AV equipment (projectors, speakers, microphones) for smooth presentations.",
     ],
     timeframe: "March 2024 - June 2024",
   },
@@ -26,7 +36,11 @@ const experiences = [
 const education = {
   title: "Computer Science",
   company: "John Abbott College",
-  tasks: ["4.0 GPA", "3x Dean's List", "$1500 semesterly awarded scholarship"],
+  tasks: [
+    "3.8/4.0 GPA",
+    "2x Dean's List",
+    "$1500 semesterly awarded scholarship",
+  ],
   timeframe: "August 2023 - May 2026",
 };
 
