@@ -11,8 +11,8 @@ import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
-    document.title = "Bogdan Feher"
- }, []);
+    document.title = "Bogdan Feher";
+  }, []);
   return (
     <div className="App bg-background text-firstText font-sans">
       <Navbar />
@@ -43,3 +43,6 @@ function App() {
 }
 
 export default App;
+
+// npm run build
+// npm run deploy
