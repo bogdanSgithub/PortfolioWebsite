@@ -2,7 +2,7 @@ import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
 import jacHacksPic from "../Pictures/jachacks.png";
 import marketPathPic from "../Pictures/marketPath.png";
-import portfolioPic from "../Pictures/portfolio.png";
+import studyBrewPic from "../Pictures/studyBrew.jpg";
 import tabinatorPic from "../Pictures/tabinator.png";
 
 const projects = [
@@ -37,7 +37,7 @@ const projects = [
     title: "StudyBrew",
     description:
       "Developed for Girls Who Hack, winning 2nd place, StudyBrew is a fullstack web app that provides a Pomodoro timer and live chat for networking in cafes.",
-    img: portfolioPic, // Replace with the actual path or URL to your image
+    img: studyBrewPic, // Replace with the actual path or URL to your image
     tools: ["React", "JavaScript", "Firebase"],
     githubLink: "https://github.com/bogdanSgithub",
     websiteLink: "https://devpost.com/software/study-cafe-chat",

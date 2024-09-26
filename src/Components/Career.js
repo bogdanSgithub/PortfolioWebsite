@@ -6,7 +6,6 @@ const experiences = [
     company: "Tail’ed",
     tasks: [
       "Implemented new features and optimized web application performance to enhance UI/UX.",
-      "Maintained accurate inventory records using in-house applications for IT equipment.",
       "Developed frontend components and integrated them with backend functionality using Next.js for efficient data handling.",
     ],
     timeframe: "September 2024 - Present",
