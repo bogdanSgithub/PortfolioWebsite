@@ -1,6 +1,7 @@
 import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
 import marketPathPic from "../Pictures/marketPath.png";
+import studyBrewPic from "../Pictures/studyBrew.jpg";
 import tabinatorPic from "../Pictures/tabinator.png";
 import myFridgePic from "../Pictures/myFridge.jpg";
 import mySafePic from "../Pictures/mySafe.jpg";

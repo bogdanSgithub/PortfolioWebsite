@@ -1,6 +1,7 @@
 import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
 import marketPathPic from "../Pictures/marketPath.png";
+import studyBrewPic from "../Pictures/studyBrew.jpg";
 import tabinatorPic from "../Pictures/tabinator.png";
 import myFridgePic from "../Pictures/myFridge.jpg";
 import mySafePic from "../Pictures/mySafe.jpg";
@@ -25,15 +26,6 @@ const projects = [
     websiteLink: "https://devpost.com/software/tabulator",
   },
   {
-    title: "MySafe",
-    description:
-      "Winning project at BrébeufHx 8.0, Collège Brébeuf, MySafe is a community-driven web app that helps improve safety by allowing users to report incidents, view global safety data, and chat with an AI for localized risk assessment.",
-    img: mySafePic,
-    tools: ["React", "Supabase", "Gemini AI"],
-    githubLink: "https://github.com/JACHacks/JACHacks-Website",
-    websiteLink: "https://jachacks.pages.dev/",
-  },
-  {
     title: "MarketPath",
     description:
       "Project developed for AI Launch Lab's R&D program. MarketPath is an AI-powered machine learning model for investment analysis. It predicts which S&P 500 stocks will outperform the market, helping investors make data-driven decisions with greater confidence.",
@@ -41,6 +33,15 @@ const projects = [
     tools: ["Streamlit", "Scikit Learn", "Python"],
     githubLink: "https://github.com/bogdanSgithub/MarketPath",
     websiteLink: "https://marketpath.streamlit.app/",
+  },
+  {
+    title: "MySafe",
+    description:
+      "Winning project at BrébeufHx 8.0, Collège Brébeuf, MySafe is a community-driven web app that helps improve safety by allowing users to report incidents, view global safety data, and chat with an AI for localized risk assessment.",
+    img: mySafePic,
+    tools: ["React", "Supabase", "Gemini AI"],
+    githubLink: "https://github.com/JACHacks/JACHacks-Website",
+    websiteLink: "https://jachacks.pages.dev/",
   },
 ];
 

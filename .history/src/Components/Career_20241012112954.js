@@ -5,10 +5,10 @@ const experiences = [
     title: "Fullstack Developer Intern",
     company: "Tail’ed",
     tasks: [
-      "Implemented new features, fixed bugs and optimized web application performance to enhance UI/UX.",
+      "Implemented new features and optimized web application performance to enhance UI/UX.",
       "Developed frontend components and integrated them with backend functionality using Next.js for efficient data handling.",
     ],
-    timeframe: "September 2024 - December 2024",
+    timeframe: "September 2024 - Present",
   },
   {
     title: "IT Helper",
