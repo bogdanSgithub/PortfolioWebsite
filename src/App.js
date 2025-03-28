@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 
 import React from "react";
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Career from "./Components/Career";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Career from "./components/Career";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {

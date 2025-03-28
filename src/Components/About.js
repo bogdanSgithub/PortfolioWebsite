@@ -1,5 +1,5 @@
 import { BsFillPersonFill } from "react-icons/bs";
-import mePic from "../Pictures/me.png";
+import mePic from "../pictures/me.png";
 
 function About() {
   return (

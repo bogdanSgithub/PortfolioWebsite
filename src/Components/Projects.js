@@ -1,9 +1,9 @@
 import { BsCodeSlash } from "react-icons/bs";
 import ProjectItem from "./ProjectItem";
-import marketPathPic from "../Pictures/marketPath.png";
-import tabinatorPic from "../Pictures/tabinator.png";
-import myFridgePic from "../Pictures/myFridge.jpg";
-import mySafePic from "../Pictures/mySafe.jpg";
+import marketPathPic from "../pictures/marketPath.png";
+import tabinatorPic from "../pictures/tabinator.png";
+import myFridgePic from "../pictures/myFridge.jpg";
+import mySafePic from "../pictures/mySafe.jpg";
 
 const projects = [
   {
