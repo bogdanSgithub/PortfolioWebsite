@@ -30,8 +30,8 @@ const projects = [
       "Winning project at BrébeufHx 8.0, Collège Brébeuf, MySafe is a community-driven web app that helps improve safety by allowing users to report incidents, view global safety data, and chat with an AI for localized risk assessment.",
     img: mySafePic,
     tools: ["React", "Supabase", "Gemini AI"],
-    githubLink: "https://github.com/JACHacks/JACHacks-Website",
-    websiteLink: "https://jachacks.pages.dev/",
+    githubLink: "https://github.com/YoussefAzmires/MySafe",
+    websiteLink: "https://devpost.com/software/mysafe",
   },
   {
     title: "MarketPath",
